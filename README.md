@@ -9,3 +9,5 @@ A super-simple recipe website, to demonstrate the use of foundational HTML
  - images
 
 The homepage contains a list of recipes with links to each recipe on its own page.
+
+The recipes, including the images, are excerpted from *Healthy Living Made Easy*, a cookbook from [Thrive Market](https://www.thrivemarket.com).

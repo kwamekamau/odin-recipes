@@ -1,3 +1,5 @@
+/* RESET */
+
 /* Use more intuitive box-sizing */
 *,
 *::before,
@@ -9,3 +11,16 @@
 * {
     margin: 0;
 }
+
+/* END RESET */
+
+body {
+    font-family: Garamond, "Times New Roman", serif;
+}
+
+h1,
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+

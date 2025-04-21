@@ -24,3 +24,7 @@ h2 {
     font-weight: 300;
 }
 
+.site-title h1 {
+    font-size: 48px;
+    color: firebrick;
+}

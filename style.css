@@ -29,3 +29,13 @@ h2 {
     font-size: 48px;
     color: firebrick;
 }
+
+.ingredients li {
+    list-style-type: none;
+}
+
+.ingredients,
+.steps {
+    width: 45%;
+    display: inline-block;
+}

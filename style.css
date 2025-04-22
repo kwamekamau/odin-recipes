@@ -15,12 +15,17 @@
 /* END RESET */
 
 body {
-    font-family: Garamond, "Times New Roman", serif;
+    font-family: Garamond, "Times New Roman", serif;;
+}
+
+div {
     max-width: 756px;
+    margin: 0 auto;
 }
 
 h1,
-h2 {
+h2,
+button {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
@@ -28,14 +33,78 @@ h2 {
 .site-title h1 {
     font-size: 48px;
     color: firebrick;
+    background-color: bisque;
+}
+
+h1 {
+    padding: 7px;
+    color: bisque;
+    background-color: firebrick;
+}
+
+    .toc h2 {
+    background-color: #fff;
+}
+
+h2 {
+    padding: 4px;
+    background-color: bisque;
+}
+
+.hero {
+    margin-bottom: -4px;    /* Removes UNEXPLAINED 4px of whitespace beneath
+                               hero image */
+}
+
+li,
+p {
+    padding: 4px;
 }
 
 .ingredients li {
     list-style-type: none;
+    margin-left: -40px;
+}
+
+.steps li {
+    margin-left: -20px; /* Numbers spaced 4px from left edge of <ol> box to
+                           match padding of ingredient list and header */
+}
+
+.ingredients {
+    float: left;
+    width: 300px;
+}
+
+.steps {
+    float: right;
+    width: 400px;
 }
 
 .ingredients,
 .steps {
-    width: 45%;
     display: inline-block;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin-bottom: 30px;
+}
+
+.footer {
+    clear: both;
+    height: 100px;
+    background-color: firebrick;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    /* display: block; */
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    background-color: bisque;
+    border: 0;
 }
